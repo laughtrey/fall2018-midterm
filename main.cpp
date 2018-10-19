@@ -22,7 +22,7 @@ int main()
    char c = get_char("Please enter the character you would like to count: ");
    //cout << str << endl;
    //cout << c << endl;
-   cout << "Your sentance has " << char_count(str, c) << " of the characters you selected."<< endl;
+   cout << "Your sentence has " << char_count(str, c) << " of the characters you selected."<< endl;
    return 0;
 }
 /*
