@@ -7,7 +7,6 @@ Date:f
 #include<iostream>
 #include<string>
 #include<cctype>
-#include<locale>
 
 using namespace std;
 
@@ -29,6 +28,10 @@ string get_string(string prompt)
    string str;
    cout << prompt;
    getline(cin, str);
+   for (int i = 0; i < str.length(); i++)
+   {
+      str[i] = tolower(str.at(i));
+   }
    return str;
 }
 char get_char(string prompt)
