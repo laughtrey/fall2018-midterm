@@ -29,17 +29,17 @@ int main()
 Recieves the sentence string and converts it to lowercase
 @param str string input
 @param prompt prints the prompt to request input
-@return returns the lowercase sentence
+@return returns the sentence
 */
 string get_string(string prompt)
 {
    string str;
    cout << prompt;
    getline(cin, str);
-   for (int i = 0; i < str.length(); i++)
+   /*for (int i = 0; i < str.length(); i++)
    {
       str[i] = tolower(str.at(i));
-   }
+   }*/
    return str;
 }
 /*
